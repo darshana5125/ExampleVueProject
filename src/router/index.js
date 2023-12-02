@@ -16,11 +16,11 @@ const routes = [
         name: "Page2",
         component: () => import("@/views/Page2.vue"),
       },
-      {
-        path: "/labtwo",
-        name: "labtwo",
-        component: () => import("@/views/Labtwo.vue"),
-      },
+      // {
+      //   path: "/labtwo",
+      //   name: "labtwo",
+      //   component: () => import("@/views/Labtwo.vue"),
+      // },
       {
         path: "/index",
         name: "index",
